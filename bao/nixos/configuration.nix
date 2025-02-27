@@ -114,6 +114,7 @@
   btop
   # Utils
   blueberry
+  zsh
   # Build
   git
   git-credential-manager
