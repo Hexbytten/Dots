@@ -10,6 +10,8 @@ nix flake update
 
 sudo nixos-rebuild switch --flake .#nixos-bao &&
 
+sh ./config.sh &&
+
 echo -e "${cyan}Now just commit to main and push the changes!${nc}" &&
 
 sh ../commit.sh
