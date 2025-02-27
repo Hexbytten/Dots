@@ -5,4 +5,4 @@ sudo nixos-rebuild switch --flake .#nixos-mochi &&
 
 echo "Now just commit to main and push the changes!" &&
 
-(github-desktop &)
+sh ../commit.sh
