@@ -109,7 +109,7 @@
   kitty
   alacritty
   firefox
-  vencord
+  webcord-vencord
   # Utils
   blueberry
   # Build
