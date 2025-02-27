@@ -4,6 +4,8 @@ nc='\033[0m'
 echo -e "${cyan}Placing blocks and shit...${nc}"
 sleep 3;
 
+export NIX_CONFIG="experimental-features = nix-command flakes"
+
 nix flake update
 
 sudo nixos-rebuild switch --flake .#nixos-bao &&
