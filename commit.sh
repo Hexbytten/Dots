@@ -1,9 +1,9 @@
-git add .
+git add . &&
 
-echo "What changes did you make?"
+echo "What changes did you make?" &&
 
-read -p "Changes made:" commit_message
+read -p "Changes made:" commit_message &&
 
-git commit -m "$commit_message"
+git commit -m "$commit_message" &&
 
 git push origin main
