@@ -59,6 +59,9 @@
   # Enable CUPS to print documents.
   services.printing.enable = true;
 
+  # Disable oomd (idk whats wrong with it)
+  systemd.oomd.enable = false;
+
   # Enable sound with pipewire.
   hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
@@ -106,6 +109,9 @@
   kitty
   alacritty
   firefox
+  # Utils
+  blueberry
+  # Build
   git
   github-desktop
   junction
