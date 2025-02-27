@@ -109,6 +109,9 @@
   kitty
   firefox
   discord
+  neofetch
+  rofi-wayland
+  btop
   # Utils
   blueberry
   # Build
