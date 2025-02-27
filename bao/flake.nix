@@ -53,7 +53,7 @@
     # Available through 'nixos-rebuild --flake .#nixos-mochi'
     nixosConfigurations = {
       # FIXME replace with your hostname
-      nixos-mochi = nixpkgs.lib.nixosSystem {
+      nixos-bao = nixpkgs.lib.nixosSystem {
         specialArgs = {inherit inputs outputs;};
         modules = [
           # > Our main nixos configuration file <
@@ -66,7 +66,7 @@
     # Available through 'home-manager --flake .#maebyte@nixos-mochi'
     homeConfigurations = {
       # FIXME replace with your username@hostname
-      "maebyte@nixos-mochi" = home-manager.lib.homeManagerConfiguration {
+      "maebyte@nixos-bao" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
         extraSpecialArgs = {inherit inputs outputs;};
         modules = [
