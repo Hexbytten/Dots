@@ -68,6 +68,7 @@
   git
   git-configuration-manager
   blueberry
+  fira-code
 
    ];
 

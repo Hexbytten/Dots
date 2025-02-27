@@ -115,6 +115,7 @@
   # Utils
   blueberry
   zsh
+  fira-code
   # Build
   git
   git-credential-manager
