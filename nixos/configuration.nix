@@ -83,14 +83,16 @@
     isNormalUser = true;
     description = "Mae";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-      kdePackages.kate
+    # packages = with pkgs; [
+      # kdePackages.kate
     #  thunderbird
-    ];
+    # ];
   };
 
   # Install firefox.
   programs.firefox.enable = true;
+  # Install Steam + Deps
+  programs.steam.enable = true;
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
@@ -105,7 +107,8 @@
   alacritty
   firefox
   git
-  git-credential-manager
+  github-desktop
+  junction
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -119,7 +122,7 @@
   # List services that you want to enable:
 
   # Enable the OpenSSH daemon.
-  # services.openssh.enable = true;
+  services.openssh.enable = true;
 
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
