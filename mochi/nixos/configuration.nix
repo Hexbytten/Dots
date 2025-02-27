@@ -109,13 +109,15 @@
   kitty
   alacritty
   firefox
+  steam
+  alvr
   webcord-vencord
   # Utils
   blueberry
   # Build
   git
+  git-configuration-manager
   github-desktop
-  junction
   ];
 
   # Wayland and such
