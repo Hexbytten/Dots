@@ -109,6 +109,7 @@
   kitty
   alacritty
   firefox
+  vesktop
   # Utils
   blueberry
   # Build
