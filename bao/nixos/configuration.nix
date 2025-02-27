@@ -107,16 +107,14 @@
   #  wget
   micro
   kitty
-  alacritty
   firefox
-  webcord-vencord
+  discord
   # Utils
   blueberry
   # Build
   git
   git-credential-manager
   github-desktop
-  junction
   ];
 
   # Wayland and such
