@@ -76,6 +76,7 @@
   exfatprogs
   appimage-run
   junction
+  love
 
    ];
 

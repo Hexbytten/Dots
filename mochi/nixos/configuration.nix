@@ -122,6 +122,7 @@
   exfatprogs
   appimage-run
   junction
+  love
   # Build
   git
   git-credential-manager
