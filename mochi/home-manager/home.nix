@@ -64,7 +64,9 @@
   kitty
   neofetch
   btop
+  alvr
   # utils
+  gparted
   git
   git-configuration-manager
   blueberry

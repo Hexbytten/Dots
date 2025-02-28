@@ -112,6 +112,7 @@
   neofetch
   rofi-wayland
   btop
+  gparted
   # Utils
   blueberry
   zsh
