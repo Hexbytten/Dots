@@ -107,16 +107,18 @@
   #  wget
   micro
   kitty
-  alacritty
   firefox
-  steam
-  alvr
-  webcord-vencord
+  discord
+  neofetch
+  rofi-wayland
+  btop
   # Utils
   blueberry
+  zsh
+  fira-code
   # Build
   git
-  git-configuration-manager
+  git-credential-manager
   github-desktop
   ];
 

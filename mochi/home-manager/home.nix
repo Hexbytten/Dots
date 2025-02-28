@@ -54,7 +54,23 @@
   # Add stuff for your user as you see fit:
   # programs.neovim.enable = true;
   programs.micro.enable = true;
-  home.packages = with pkgs; [ steam ];
+  home.packages = with pkgs; [ 
+
+  steam
+  discord
+  firefox
+  waybar
+  rofi-wayland
+  kitty
+  neofetch
+  btop
+  # utils
+  git
+  git-configuration-manager
+  blueberry
+  fira-code
+
+   ];
 
   # Enable home-manager and git
   programs.home-manager.enable = true;
