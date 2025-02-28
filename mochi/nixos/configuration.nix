@@ -121,6 +121,7 @@
   exfat
   exfatprogs
   appimage-run
+  junction
   # Build
   git
   git-credential-manager

@@ -75,6 +75,7 @@
   exfat
   exfatprogs
   appimage-run
+  junction
 
    ];
 
