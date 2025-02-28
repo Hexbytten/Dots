@@ -120,6 +120,7 @@
   btrfs-progs
   exfat
   exfatprogs
+  appimage-run
   # Build
   git
   git-credential-manager

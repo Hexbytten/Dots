@@ -74,6 +74,7 @@
   btrfs-progs
   exfat
   exfatprogs
+  appimage-run
 
    ];
 
