@@ -77,6 +77,7 @@
   appimage-run
   junction
   love
+  kdePackages.qtwayland
 
    ];
 
