@@ -118,6 +118,8 @@
   zsh
   fira-code
   btrfs-progs
+  exfat
+  exfatprogs
   # Build
   git
   git-credential-manager

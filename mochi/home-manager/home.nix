@@ -72,6 +72,8 @@
   blueberry
   fira-code
   btrfs-progs
+  exfat
+  exfatprogs
 
    ];
 
