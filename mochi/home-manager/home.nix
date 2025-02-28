@@ -71,6 +71,7 @@
   git-configuration-manager
   blueberry
   fira-code
+  btrfs-progs
 
    ];
 

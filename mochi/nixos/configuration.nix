@@ -117,6 +117,7 @@
   blueberry
   zsh
   fira-code
+  btrfs-progs
   # Build
   git
   git-credential-manager
